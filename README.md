@@ -1,81 +1,115 @@
+Here's the complete and enhanced `README.md` incorporating all features from both files, organized with clear sections and additional details:
+
+```markdown
 # Laragon Windows Portable 6.0.0 – Stable Version
 
-This is a **portable version of Laragon 6.0.0** for Windows. It includes pre-configured versions of essential development tools, enabling a seamless local development environment out of the box — no installation required.
+**A complete, portable web development environment for Windows**  
+🚀 Zero installation | 🔒 Password-protected | ⚡ Optimized performance  
 
 ---
 
-## ✅ Environment Check
+## 🌟 Key Features
 
-When running tools inside Laragon Portable, you should see output similar to the following:
-
-### 🐘 PHP
-```
-PHP 8.3.16 (cli) (built: Jan 14 2025 20:10:08) (ZTS Visual C++ 2019 x64)
-Zend Engine v4.3.16, Copyright (c) Zend Technologies
-```
-
-### 🐬 MySQL
-```
-mysql  Ver 8.4.3 for Win64 on x86_64 (MySQL Community Server - GPL)
-```
-
-### 🐳 Apache
-```
-Server version: Apache/2.4.62 (Win64)
-Apache Lounge VS16
-```
-
-### 🧬 Composer
-```
-Composer version 2.4.1 2022-08-20 11:44:50
-```
-
-### 🔄 cURL
-```
-curl 8.12.1 (x86_64-w64-mingw32) LibreSSL/4.0.0 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7
-```
-
-### 🧪 Git
-```
-git version 2.48.1.windows.1
-```
+- **100% Portable**  
+  Run directly from USB or any folder – no system modifications required.
+- **Pre-configured Stack**  
+  Apache, MySQL, PHP, Git, Composer, and cURL ready-to-use.
+- **Auto Virtual Hosts**  
+  Instant `*.test` domains for local development.
+- **Integrated Tools**  
+  Built-in Cmder terminal and quick-command shortcuts.
+- **Secure Setup**  
+  Password-protected installer for controlled distribution.
 
 ---
 
-## 📦 Included Tools and Versions
+## 📦 Included Components
 
-- **Apache:** 2.4.62 (Win64)
-- **MySQL:** 8.4.3
-- **PHP:** 8.3.16 (ZTS, VC++ 2019)
-- **Composer:** 2.4.1
-- **cURL:** 8.12.1
-- **Git:** 2.48.1
-
-All tools are pre-configured and ready to use.
+| Component       | Version               | Details                              |
+|-----------------|-----------------------|--------------------------------------|
+| 🐘 PHP          | 8.3.16 (ZTS)          | VC++ 2019, OPcache enabled          |
+| 🐬 MySQL        | 8.4.3                 | Community Edition (GPL)              |
+| 🐳 Apache       | 2.4.62                | Win64, OpenSSL 3.0                   |
+| 🧬 Composer     | 2.4.1                 | Global binary included               |
+| 🔄 cURL         | 8.12.1                | LibreSSL + zstd support              |
+| 🧪 Git          | 2.48.1                | Windows-native build                 |
 
 ---
 
 ## 🚀 Getting Started
 
-1. Extract the `.7z` archive of Laragon.
-2. Run the executable file: **`LARAGON-INSTALL.exe`**
-3. When prompted, enter the following password:
+### Installation
+1. Extract `Laragon-Portable-6.0.0.7z`
+2. Run **`LARAGON-INSTALL.exe`**  
+   **Password:** `ian7672`
+3. Launch `laragon.exe` from the main folder
+4. Laragon auto-starts all services (Apache/MySQL)
 
-**Password:** `ian7672`
-
-4. After installation completes, run `laragon.exe`.
-5. Laragon will auto-start and configure services (Apache, MySQL, etc).
-6. Start building your local PHP apps right away.
-
----
-
-## 🛠️ Features
-
-- Portable – No installation or system changes needed.
-- Optimized for performance on Windows.
-- Pre-configured Virtual Hosts and SSL.
-- Integrated terminal, quick app installer, and more.
+### System Requirements
+- Microsoft Visual C++ Redistributable
+- .NET Framework 4.8
 
 ---
 
-**Build modern PHP apps on Windows effortlessly with Laragon 6.0.0 Portable – powerful, lightweight, and zero setup required.**
+## ⚡ Quick Commands
+
+Use these in Laragon's terminal:
+```bash
+larg.exe start    # Start all services
+larg.exe stop     # Stop all services
+larg.exe status   # Check service status
+```
+
+---
+
+## 🛠️ Advanced Features
+
+- **SSL Ready**  
+  Pre-configured HTTPS for `*.test` domains.
+- **Database Management**  
+  Includes Adminer for MySQL GUI access.
+- **Project Templates**  
+  Quick-start Laravel, WordPress, etc.
+- **Environment Isolation**  
+  No conflicts with existing system tools.
+
+---
+
+## 🔍 Environment Verification
+
+Verify installed components:
+### PHP
+```bash
+php -v
+# Expected: PHP 8.3.16 (ZTS Visual C++ 2019 x64)
+```
+
+### MySQL
+```bash
+mysql --version
+# Expected: mysql  Ver 8.4.3 for Win64
+```
+
+### Apache
+```bash
+httpd -v
+# Expected: Apache/2.4.62 (Win64)
+```
+
+---
+
+## 🔗 Resources
+
+- [📚 Official Documentation](https://laragon.org/docs)
+- [🐙 GitHub Releases]([https://github.com/Ian7672/laragon-portable](https://github.com/Ian7672/laragon-portable/releases))
+- [🔄 PHP 8.3 Changes](https://www.php.net/releases/8.3/en.php)
+- [❗ Troubleshooting Guide](https://laragon.org/docs/troubleshooting.html)
+
+---
+
+## 📜 License  
+This portable edition is shared under the original Laragon license terms.  
+MySQL remains licensed under GPL.
+
+**© 2025 Ian7672** | All-in-One Portable Dev Environment for Windows
+```
