@@ -109,4 +109,3 @@ This portable edition is shared under the original Laragon license terms.
 MySQL remains licensed under GPL.
 
 **© 2025 Ian7672** | All-in-One Portable Dev Environment for Windows
-```
