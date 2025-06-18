@@ -13,10 +13,6 @@
   Apache, MySQL, PHP, Git, Composer, and cURL ready-to-use.
 - **Auto Virtual Hosts**  
   Instant `*.test` domains for local development.
-- **Integrated Tools**  
-  Built-in Cmder terminal and quick-command shortcuts.
-- **Secure Setup**  
-  Password-protected installer for controlled distribution.
 
 ---
 
@@ -35,12 +31,26 @@
 
 ## 🚀 Getting Started
 
-### Installation
-1. Extract `Laragon-Portable-6.0.0.7z`
-2. Run **`LARAGON-INSTALL.exe`**  
-   **Password:** `ian7672`
-3. Launch `laragon.exe` from the main folder
-4. Laragon auto-starts all services (Apache/MySQL)
+1. Extract the `.7z` archive of Laragon.
+2. Run the executable file: **`LARAGON-INSTALL.exe`**
+3. When prompted, enter the following password:
+
+**Password:** `ian7672`
+
+4. After installation completes, run `laragon.exe`.
+5. Laragon will auto-start and configure services (Apache, MySQL, etc).
+6. Start building your local PHP apps right away.
+
+---
+
+## 🛠️ Features
+
+- Portable – No installation or system changes needed.
+- Optimized for performance on Windows.
+- Pre-configured Virtual Hosts and SSL.
+- Integrated terminal, quick app installer, and more.
+
+---
 
 ### System Requirements
 - Microsoft Visual C++ Redistributable
@@ -65,10 +75,6 @@ larg.exe status   # Check service status
   Pre-configured HTTPS for `*.test` domains.
 - **Database Management**  
   Includes Adminer for MySQL GUI access.
-- **Project Templates**  
-  Quick-start Laravel, WordPress, etc.
-- **Environment Isolation**  
-  No conflicts with existing system tools.
 
 ---
 
