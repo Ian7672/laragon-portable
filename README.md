@@ -1,6 +1,3 @@
-Here's the complete and enhanced `README.md` incorporating all features from both files, organized with clear sections and additional details:
-
-```markdown
 # Laragon Windows Portable 6.0.0 – Stable Version
 
 **A complete, portable web development environment for Windows**  
