@@ -98,7 +98,7 @@ httpd -v
 ## 🔗 Resources
 
 - [📚 Official Documentation](https://laragon.org/docs)
-- [🐙 GitHub Releases]([https://github.com/Ian7672/laragon-portable](https://github.com/Ian7672/laragon-portable/releases))
+- [🐙 GitHub Releases](https://github.com/Ian7672/laragon-portable/releases)
 - [🔄 PHP 8.3 Changes](https://www.php.net/releases/8.3/en.php)
 - [❗ Troubleshooting Guide](https://laragon.org/docs/troubleshooting.html)
 
